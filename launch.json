@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "1. Run Standalone Submission (EvoForge-X)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/evoforge_x_standalone.py",
+            "args": ["--synthetic-test"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "2. Run Empirical Benchmark Suite (benchmark.py)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/benchmark.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "3. Run Complete Test Suite (35 Unit Tests)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_tests.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "4. Run Baselines & Ablation Studies",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/evoforge_x_standalone.py",
+            "args": ["--run_experiments"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "5. Run Embedded Standalone Tests",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/evoforge_x_standalone.py",
+            "args": ["--run-tests"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

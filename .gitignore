@@ -1,0 +1,23 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Datasets and large binary files (Keep repo size < 10MB)
+data/
+*.csv
+*.tsv
+*.npz
+*.npy
+*.pkl
+*.h5
+*.pth
+*.pt
+*.onnx
+
+# IDE and System files
+.vscode/
+.idea/
+.DS_Store
+*.log

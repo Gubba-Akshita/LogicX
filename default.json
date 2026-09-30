@@ -1,0 +1,11 @@
+{
+  "data_root": "data/crisismmd",
+  "random_seed": 42,
+  "population_size": 8,
+  "generations": 5,
+  "elite_count": 1,
+  "initial_mutation_rate": 0.2,
+  "max_archive_size": 10,
+  "runtime_budget_sec": 5.0,
+  "ood_event_name": "hurricane_irma"
+}

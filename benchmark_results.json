@@ -1,0 +1,46 @@
+{
+  "status": "success",
+  "dataset_samples": 500,
+  "train_samples": 400,
+  "ood_samples": 100,
+  "trainable_parameters": 46659,
+  "preprocessing_time_sec": 0.1607,
+  "model_init_time_sec": 0.005072,
+  "training_time_15_epochs_sec": 0.7456,
+  "training_time_per_epoch_ms": 49.71,
+  "single_sample_latency_ms": 2.4216,
+  "peak_memory_mb": 2.708,
+  "current_memory_mb": 0.843,
+  "batch_profiling": [
+    {
+      "batch_size": 1,
+      "avg_batch_latency_ms": 2.4216,
+      "latency_per_sample_ms": 2.4216,
+      "throughput_samples_per_sec": 412.95
+    },
+    {
+      "batch_size": 8,
+      "avg_batch_latency_ms": 2.1576,
+      "latency_per_sample_ms": 0.2697,
+      "throughput_samples_per_sec": 3707.77
+    },
+    {
+      "batch_size": 16,
+      "avg_batch_latency_ms": 2.2434,
+      "latency_per_sample_ms": 0.1402,
+      "throughput_samples_per_sec": 7131.96
+    },
+    {
+      "batch_size": 32,
+      "avg_batch_latency_ms": 2.7595,
+      "latency_per_sample_ms": 0.0862,
+      "throughput_samples_per_sec": 11596.35
+    },
+    {
+      "batch_size": 64,
+      "avg_batch_latency_ms": 2.8561,
+      "latency_per_sample_ms": 0.0446,
+      "throughput_samples_per_sec": 22408.53
+    }
+  ]
+}
